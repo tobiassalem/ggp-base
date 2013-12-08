@@ -1,6 +1,5 @@
-=====================================
-= GENERAL GAME PLAYING BASE PACKAGE =
-=====================================
+GENERAL GAME PLAYING BASE PACKAGE
+=================================
 
 Application Suite for the General Game Playing Project;
  - A GUI-based GameKiosk        (for playing human-vs-computer matches)
@@ -10,7 +9,9 @@ Application Suite for the General Game Playing Project;
 
 Support code for the above.
 
-                            == QUICK START GUIDE ===
+
+QUICK START GUIDE
+-----------------
 
     Getting started is as simple as writing a new player that inherits from the
 StateMachineGamer class. StateMachineGamer is based on the state machine view
@@ -46,7 +47,9 @@ where two extremely simple "reflex-based" players are included: LegalGamer and
 RandomGamer. LegalGamer always chooses the first legal move available, and the
 RandomGamer always chooses a random legal move.
 
-                              === MISC NOTES ===
+
+MISC NOTES
+----------
 
 * This is the 4/1/2010 release of GGP code for CS227B, compiled and maintained
   by Sam Schreiber with help and support from Ethan Dreyfuss, Eric Schkufza,
